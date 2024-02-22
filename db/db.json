@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ibrahim Mohamed",
+      "email": "admin@admin.com",
+      "password": "123123",
+      "img": "https://profilemagazine.com/wp-content/uploads/2020/04/Ajmere-Dale-Square-thumbnail.jpg"
+    },
+    {
+      "email": "admin2@admin.com",
+      "password": "123123",
+      "name": "Ibrahim Mohamed",
+      "img": "https://cms-assets.tutsplus.com/uploads/users/810/profiles/19338/profileImage/profile-square-extra-small.png",
+      "id": 2
+    }
+  ],
+  "todo": [
+    {
+      "id": 2,
+      "type": "todo",
+      "user_img": "https://profilemagazine.com/wp-content/uploads/2020/04/Ajmere-Dale-Square-thumbnail.jpg",
+      "description": "Todo1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed omnis, incidunt nostrum a asperiores numquam alias natus qui itaque expedita modi culpa ad possimus velit reiciendis architecto deleniti, doloribus dicta?"
+    }
+  ],
+  "inProgress": [
+    {
+      "id": 1,
+      "type": "inProgress",
+      "user_img": "https://profilemagazine.com/wp-content/uploads/2020/04/Ajmere-Dale-Square-thumbnail.jpg",
+      "description": "inProgress Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed omnis, incidunt nostrum a asperiores numquam alias natus qui itaque expedita modi culpa ad possimus velit reiciendis architecto deleniti, doloribus dicta?"
+    },
+    {
+      "user_img": "https://cms-assets.tutsplus.com/uploads/users/810/profiles/19338/profileImage/profile-square-extra-small.png",
+      "description": "inProgress2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed omnis, incidunt nostrum a asperiores numquam alias natus qui itaque expedita modi culpa ad possimus velit reiciendis architecto deleniti, doloribus dicta?",
+      "type": "inProgress",
+      "id": 2
+    }
+  ],
+  "done": [
+    {
+      "id": 1,
+      "type": "done",
+      "user_img": "https://profilemagazine.com/wp-content/uploads/2020/04/Ajmere-Dale-Square-thumbnail.jpg",
+      "description": "done Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed omnis, incidunt nostrum a asperiores numquam alias natus qui itaque expedita modi culpa ad possimus velit reiciendis architecto deleniti, doloribus dicta?"
+    }
+  ]
+}

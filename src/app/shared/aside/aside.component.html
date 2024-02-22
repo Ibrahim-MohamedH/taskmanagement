@@ -1,0 +1,45 @@
+<aside
+  class="d-flex flex-md-column justify-content-between col-lg-2 col-md-3 flex-shrink-0 p-3 pt-md-5 pt-4 bg-body-tertiary"
+>
+  <ul
+    class="nav nav-pills flex-md-column mb-auto pt-5 justify-content-sm-between justify-content-end"
+  >
+    <li class="col-md-12 col-sm-4 col-6 mb-2 px-1">
+      <a href="#" class="nav-link link-body-emphasis"
+        ><i class="bi bi-grid me-1"></i> <span>Dashboard</span>
+      </a>
+    </li>
+    <li class="col-md-12 col-sm-4 col-6 mb-2 px-1">
+      <a href="#" class="nav-link link-body-emphasis">
+        <i class="bi bi-folder2-open me-1"></i> <span>Projects</span>
+      </a>
+    </li>
+    <li class="col-md-12 col-sm-4 col-6 mb-2 px-1">
+      <a routerLink="/tasks" class="nav-link active"
+        ><i class="bi bi-card-checklist me-1"></i> <span>Tasks</span>
+      </a>
+    </li>
+    <li class="col-md-12 col-sm-4 col-6 mb-2 px-1">
+      <a href="#" class="nav-link link-body-emphasis">
+        <i class="bi bi-calendar2-check me-1"></i> <span>Calender</span>
+      </a>
+    </li>
+    <li class="col-md-12 col-sm-4 col-6 mb-2 px-1">
+      <button
+        (click)="signOut()"
+        class="nav-link d-md-none d-block col-12 text-start link-body-emphasis logout"
+      >
+        <i class="bi bi-box-arrow-left me-1"></i> <span>Log out</span>
+      </button>
+    </li>
+  </ul>
+  <hr />
+  <span class="nav-pills">
+    <button
+      (click)="signOut()"
+      class="nav-link col-12 d-md-block d-none logout"
+    >
+      <i class="bi bi-box-arrow-left"></i> Log out
+    </button>
+  </span>
+</aside>
